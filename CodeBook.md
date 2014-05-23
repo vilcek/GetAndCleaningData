@@ -17,8 +17,8 @@ The purpose of this code book is:
 ## 2. Data Sources
 
 Data sources for this project were obtained from some files obtained
-after unzipping the data set named "[UCI HAR Dataset.zip"][], downloaded
-from the ["Human Activity Recognition Using Smartphones"][] repository
+after unzipping the data set named "UCI HAR Dataset.zip", downloaded
+from the "Human Activity Recognition Using Smartphones" [repository][]
 
 The necessary files are:
 
@@ -172,63 +172,33 @@ identifier names in R code.
 
 ### 4.4 Naming dictionary for the feature labels:
 
-`+------------------------------------------------------------------------+`
+`SUB-STRING: MEANING`
 
-`| SUB-STRING  | MEANING                                                  |`
+`f: value is in the frequency domain`
 
-`+------------------------------------------------------------------------+`
+`t: value is in the time domain`
 
-`| f           | value is in the frequency domain                         |`
+`body: measurement with respect to the body mass of the subject`
 
-`+------------------------------------------------------------------------+`
+`gravity: measurement with respect to the gravity force`
 
-`| t           | value is in the time domain                              |`
+`acc: acceleration`
 
-`+------------------------------------------------------------------------+`
+`gyro: angular velocity`
 
-`| body        | measurement with respect to the body mass of the subject |`
+`jerk: rate of change`
 
-`+------------------------------------------------------------------------+`
+`mag: magnitude (using Euclidean Norm)`
 
-`| gravity     | measurement with respect to the gravity force            |`
+`mean: mean value`
 
-`+------------------------------------------------------------------------+`
+`std: standard deviation`
 
-`| acc         | acceleration                                             |`
+`x: x-direction in the 3-axial coordinate system`
 
-`+------------------------------------------------------------------------+`
+`y: y-direction in the 3-axial coordinate system`
 
-`| gyro        | angular velocity                                         |`
-
-`+------------------------------------------------------------------------+`
-
-`| jerk        | rate of change                                           |`
-
-`+------------------------------------------------------------------------+`
-
-`| mag         | magnitude (using Euclidean Norm)                         |`
-
-`+------------------------------------------------------------------------+`
-
-`| mean        | mean value                                               |`
-
-`+------------------------------------------------------------------------+`
-
-`| std         | standard deviation                                       |`
-
-`+------------------------------------------------------------------------+`
-
-`| x           | x-direction in the 3-axial coordinate system             |`
-
-`+------------------------------------------------------------------------+`
-
-`| y           | y-direction in the 3-axial coordinate system             |`
-
-`+------------------------------------------------------------------------+`
-
-`| z           | z-direction in the 3-axial coordinate system             |`
-
-`+------------------------------------------------------------------------+`
+`z: z-direction in the 3-axial coordinate system`
 
 ### 4.5 List of activity labels in the "tidy\_data\_mean.csv" data set:
 
@@ -243,58 +213,5 @@ The activity labels are self-explanatory. They represent the action a
 given subject was performing when a given measurement was taken. These
 measurements are described in items 4.3 and 4.4 above.
 
-### 4.6 Sample from the "tidy\_data\_mean.csv" data set:
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| subject | activity          | f.body.acc.jerk.mag.mean | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 1       | walking           | -0.0571194               | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 1       | walkingUpstairs   | -0.442652162             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 1       | walkingDownstairs | 0.026218495              | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 1       | sitting           | -0.985262127             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 1       | standing          | -0.992542478             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 1       | laying            | -0.933300361             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 2       | walking           | -0.169064353             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 2       | walkingUpstairs   | -0.189511137             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 2       | walkingDownstairs | 0.22224741               | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| 2       | sitting           | -0.983874699             | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-`| ...     | ...               | ...                      | ... |`
-
-`+---------+-------------------+--------------------------+-----+`
-
-  [UCI HAR Dataset.zip"]: #
-  ["Human Activity Recognition Using Smartphones"]: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/
+  [repository]: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/
   [Google's R Style Guide]: https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml
