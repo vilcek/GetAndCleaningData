@@ -172,33 +172,21 @@ identifier names in R code.
 
 ### 4.4 Naming dictionary for the feature labels:
 
-`SUB-STRING: MEANING`
-
-`f: value is in the frequency domain`
-
-`t: value is in the time domain`
-
-`body: measurement with respect to the body mass of the subject`
-
-`gravity: measurement with respect to the gravity force`
-
-`acc: acceleration`
-
-`gyro: angular velocity`
-
-`jerk: rate of change`
-
-`mag: magnitude (using Euclidean Norm)`
-
-`mean: mean value`
-
-`std: standard deviation`
-
-`x: x-direction in the 3-axial coordinate system`
-
-`y: y-direction in the 3-axial coordinate system`
-
-`z: z-direction in the 3-axial coordinate system`
+    SUB-STRING: MEANING
+     
+    f: value is in the frequency domain
+    t: value is in the time domain
+    body: measurement with respect to the body mass of the subject
+    gravity: measurement with respect to the gravity force
+    acc: acceleration
+    gyro: angular velocity
+    jerk: rate of change
+    mag: magnitude (using Euclidean Norm)
+    mean: mean value
+    std: standard deviation
+    x: x-direction in the 3-axial coordinate system
+    y: y-direction in the 3-axial coordinate system
+    z: z-direction in the 3-axial coordinate system
 
 ### 4.5 List of activity labels in the "tidy\_data\_mean.csv" data set:
 
