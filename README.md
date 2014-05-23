@@ -8,7 +8,7 @@ listed below:
 -   README.md: this file
 
 -   CodeBook.md: the code book describing the data sources utilized, all
-    data transformations performed, and the output produced. It also
+    data transformations performed and the output produced. It also
     describes naming conventions for activity and feature labels.
 
 -   run\_analysis.R: an R script that perform the processing and create
